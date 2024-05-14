@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "properties": {
+        "BlockGDoV": {
+            "title": "Block Graphic Depictions of Violence",
+            "description": "Block access to fanworks that contain graphic depiction of violence.",
+            "type": "boolean"
+        },
+        "BlockMDeath": {
+            "title": "Block Major Character Death",
+            "description": "Block access to fanworks that contain major character death.",
+            "type": "boolean"
+        },
+        "BlockUnderage": {
+            "title": "Block Underage Sex",
+            "description": "Block access to fanworks that contain underage sex.",
+            "type": "boolean"
+        },
+        "BlockNonCon": {
+            "title": "Block Non-Con",
+            "description": "Block access to fanworks that contain non-consensual sex.",
+            "type": "boolean"
+        },
+        "BlockAnyWarning": {
+            "title": "Block Possible Archive Warnings",
+            "description": "Blocks any work with possible Archive Warnings",
+            "type": "boolean"
+        },
+        "LimitAgeRange": {
+            "title": "Limit Age Rating",
+            "description": "Block access to anything above the set age range. Can be 'general', 'teen', 'mature', or 'explicit'.",
+            "type": "string"
+        },
+        "BlockUnratedWorks": {
+            "title": "Block Unrated Works",
+            "description": "Block fanworks that don't have a maturity rating attached to them.",
+            "type": "boolean"
+        }
+    }
+}
