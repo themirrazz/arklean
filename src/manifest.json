@@ -2,12 +2,42 @@
     "name": "Arklean",
     "description": "Remove sensitive content from Arklean.",
     "version": "1.0.0",
+    "version_name": "v1.0.0 (Alpha)"
     "manifest_version": 3,
+    "default_locale": "en-US",
+    "incognito": "spanning",
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "permissions": [
+        "https://raw.githubusercontent.com/*",
+        "https://*.archiveofourown.org/*",
+        "https://*.wattpad.com/*",
+        "https://boku.m.stretch.wtf/*",
+        "https://themirrazz.vercel.app/*",
+        "https://*.themirrazz.abc/*",
+        "storage",
+        "tabs",
+        "offscreen",
+        "contextMenus",
+        "favicon",
+        "downloads",
+        "identity.email",
+        "runtime"
+    ],
+    "optional_host_permissions": [
+        "https://*/*",
+        "wss://*/*"
+    ],
     "icons": {
         "16": "icons/32x32/apps/arklean.png"
         "32": "icons/32x32/apps/arklean.png",
         "48": "icons/48x48/apps/arklean.png",
         "128": "icons/128x128/apps/arklean.png",
         "512": "icons/512x512/apps/arklean.png"
+    },
+    "storage": {
+        "managed_schema": "enterprise.json"
     }
 }
